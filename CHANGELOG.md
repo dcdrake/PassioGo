@@ -41,7 +41,7 @@
 ### Changed
 
 - Fixed Documentation Build
-- All 
+- All
 - Fixed PyPi long description type
 - `printAllSystemsMd()` has the new parameter `includeHtml` with a default of `True` to render HTML breaks after each line
 

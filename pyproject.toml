@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "PassioGo"
-version = "0.2.2"
+version = "0.3.0"
 description = "An unofficial API for Passio Go"
 readme = "README.md"
 authors = [{name = "Andrei Thuler", email = "info@andreithuler.com"}]
@@ -16,7 +16,7 @@ dependencies = [
 
 [project.optional-dependencies]
 docs = ["markdown>=3.3", "markdown-include>=0.6.0"]
-dev  = ["pytest", "pytest-cov"]
+dev  = ["pytest", "pytest-cov", "pre-commit", "ruff"]
 
 [project.urls]
 Documentation = "https://passiogo.readthedocs.io/"
@@ -26,3 +26,13 @@ Changelog     = "https://github.com/athuler/PassioGo/blob/main/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "N", "SIM"]
+
+[tool.ruff.format]
+# defaults: 4-space indent, double quotes

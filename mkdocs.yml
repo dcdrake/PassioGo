@@ -8,7 +8,7 @@ site_author: Andrei Thüler
 nav:
   - Home: index.md
   - Changelog: changelog.md
-  
+
 #plugins:
 #  - search
 markdown_extensions:

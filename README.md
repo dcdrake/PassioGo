@@ -7,7 +7,7 @@
 
 
 
-An **unofficial** Python API for [Passio Go](https://passiogo.com/) allowing anyone to build transit-based applications for hundreds of Universities, Municipalities, Paratransit, and Airports. 
+An **unofficial** Python API for [Passio Go](https://passiogo.com/) allowing anyone to build transit-based applications for hundreds of Universities, Municipalities, Paratransit, and Airports.
 
 
 ## Installation
