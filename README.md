@@ -12,10 +12,10 @@ An **unofficial** Python API for [Passio Go](https://passiogo.com/) allowing any
 
 ## Installation
 
-The package is available to download using [pip](https://pypi.org/project/PassioGo/).
+The package is available on [PyPI](https://pypi.org/project/PassioGo/).
 
 ```
-pip install passiogo
+uv add passiogo
 ```
 
 ## Documentation
@@ -25,7 +25,7 @@ Project documentation for the latest stable version is available at [passiogo.re
 The documentation is built using `mkdocs` and can be rebuilt using the following:
 
 ```
-pip install -r docs/requirements.txt
+uv sync --extra docs
 mkdocs serve
 ```
 

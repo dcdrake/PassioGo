@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PassioGo"
+version = "0.2.2"
+description = "An unofficial API for Passio Go"
+readme = "README.md"
+authors = [{name = "Andrei Thuler", email = "info@andreithuler.com"}]
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.22.0",
+    "websocket-client>=1.2.0",
+]
+
+[project.optional-dependencies]
+docs = ["markdown>=3.3", "markdown-include>=0.6.0"]
+dev  = ["pytest", "pytest-cov"]
+
+[project.urls]
+Documentation = "https://passiogo.readthedocs.io/"
+GitHub        = "https://github.com/athuler/PassioGo"
+Sponsor       = "https://github.com/sponsors/athuler"
+Changelog     = "https://github.com/athuler/PassioGo/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["."]
